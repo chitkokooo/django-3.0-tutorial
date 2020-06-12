@@ -19,11 +19,14 @@ Django (I've used Django 3.0.7) `pip install django`
 
 ## Installation ##
 - `git clone https://github.com/chitkokooo/django-3.0-tutorial.git`
-- `cd django-3.0-tutorial\mysite`
-- `manage.py migrate`
-- `manage.py createsuperuser`
-- `manage.py runserver`
+- `cd django-3.0-tutorial\mysite` on Windows (or) `cd django-3.0-tutorial/mysite` on Linux
+- `python manage.py migrate` or `python3 manage.py migrate`
+- `python manage.py createsuperuser` or `python3 manage.py createsuperuser`
+- `python manage.py runserver` or `python3 manage.py runserver`
 - open browser and go to link [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+port number 8000 can be changed as you want, for example [http://127.0.0.1:8888](http://127.0.0.1:8888/) for `python manage.py runserver 8888`
+
 
 ## whoami ##
 [Facebook](https://www.facebook.com/artisan443)
