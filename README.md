@@ -12,7 +12,9 @@ It consists of 7 parts in **First Step** section.
 
 ## Requirements ##
 [Python 3](https://www.python.org/)
+
 [Django](https://www.djangoproject.com/) (I've used Django 3.0.7) `pip install django`
+
 [Git](https://git-scm.com/downloads/)
 
 ## Installation ##
