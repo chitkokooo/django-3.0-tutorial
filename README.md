@@ -13,7 +13,11 @@ It consists of 7 parts in **First Step** section.
 ## Requirements ##
 [Python 3](https://www.python.org/)
 
+<<<<<<< HEAD
 Django (I've used Django 3.0.7) `pip install django` or `pip3 install django`
+=======
+[Django](https://www.djangoproject.com/) (I've used Django 3.0.7) `pip install django`
+>>>>>>> 432fbe6d372a9dc68a2cb1fe07bff90d1c67fa8b
 
 [Git](https://git-scm.com/downloads/)
 
