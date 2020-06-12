@@ -1,13 +1,18 @@
-{% load static %}
-
-<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
-
-{% if latest_question_list %}
-	<ul>
-		{% for question in latest_question_list %}
-		<li><a href="{% url 'polls:detail' question.id %}"><h4>{{ question.question_text }}</h4></a></li>
-		{% endfor %}
-	</ul>
-{% else %}
-	<p>No polls are available.</p>
-{% endif %}
+<html>
+	<head>
+		<title> Polls | Home </title>
+		{% load static %}
+		<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+	</head>
+	<body>
+		{% if latest_question_list %}
+			<ul>
+				{% for question in latest_question_list %}
+				<li><a href="{% url 'polls:detail' question.id %}"><h4>{{ question.question_text }}</h4></a></li>
+				{% endfor %}
+			</ul>
+		{% else %}
+			<p>No polls are available.</p>
+		{% endif %}
+	</body>
+</html>
