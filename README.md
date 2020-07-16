@@ -31,12 +31,16 @@ port number 8000 can be changed as you want, for example [http://127.0.0.1:8888]
 
 ![1](resources/1_home_page.png)
 Home Page `http://127.0.0.1:8000/`
-![2](resources/2_poll_page.png)
+
+![2](resources/2_polls_page.png)
 Polls Page `http://127.0.0.1:8000/polls/`
+
 ![3](resources/3_admin_login.png)
 Admin Login `http://127.0.0.1:8000/admin/`
+
 ![4](resources/4_runserver.png)
 `python manage.py runserver` Result
+
 ![5](resources/5_test.png)
 `python manage.py test` Result
 
