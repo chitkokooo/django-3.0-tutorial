@@ -27,6 +27,19 @@ It consists of 7 parts in **First Step** section.
 
 port number 8000 can be changed as you want, for example [http://127.0.0.1:8888](http://127.0.0.1:8888/) by `python manage.py runserver 8888`
 
+## Screenshots ##
+
+![1](resources/1_home_page.png)
+Home Page
+![2](responses/2_poll_page.png)
+Polls Page
+![3](responses/3_admin_login.png)
+Admin Login
+![4](responses/4_runserver.png)
+`python manage.py runserver` Result
+![5](responses/5_test.png)
+`python manage.py test` Result
+
 
 ## whoami ##
 [Facebook](https://www.facebook.com/artisan443)
