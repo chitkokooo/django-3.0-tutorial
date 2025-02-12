@@ -48,6 +48,6 @@ Admin Login `http://127.0.0.1:8000/admin/`
 
 
 ## whoami ##
-[Facebook](https://www.facebook.com/jesuischitko) | [Linkedin](https://www.linkedin.com/in/chitkokooo-cu)
+[Facebook](https://www.facebook.com/jesuischitko) | [Linkedin](https://www.linkedin.com/in/chitkokooo-cu) | 
 [X/Twitter](https://www.x.com/mr_chitkokooo)
 
